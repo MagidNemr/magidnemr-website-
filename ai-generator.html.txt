@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Image Generator</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXX"
+crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <h2>🎨 مولد الصور بالذكاء الاصطناعي</h2>
+    <input type="text" id="prompt" placeholder="اكتب وصف الصورة...">
+    <button onclick="generateImage()">توليد صورة</button>
+    <div id="result"></div>
+
+    <!-- AdSense -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5190260474611713, DIRECT, f08c47fec0942fa0"
+         data-ad-slot="XXXX"
+         data-ad-format="auto"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+<script src="script-ai.js"></script>
+</body>
+</html>

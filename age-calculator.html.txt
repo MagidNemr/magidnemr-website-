@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>حاسبة العمر</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>🎂 حاسبة العمر</h2>
+    <input type="date" id="birthdate">
+    <button onclick="calculateAge()">احسب</button>
+    <p id="result"></p>
+
+    <!-- AdSense -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5190260474611713, DIRECT, f08c47fec0942fa0"
+         data-ad-slot="XXXX"
+         data-ad-format="auto"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+<script src="script-calculator.js"></script>
+</body>
+</html>
